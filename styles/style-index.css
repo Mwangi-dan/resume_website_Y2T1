@@ -1,5 +1,5 @@
 body {
-    background-image: url('/images/desk-setup.jpg');
+    background-image: url('../images/desk-setup.jpg');
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }

@@ -7,6 +7,7 @@
     width: 25rem;
     margin-left: 5rem;
     margin: 0.5rem;
+    transition: scale 0.1s ease-in-out;
 }
 
 .tech-skills {
@@ -205,4 +206,51 @@ h5.t {
     height: 2rem;
     max-height: 50%;
     border-radius: 50%;
+}
+
+/* Hover for containers */
+.container-exp:hover {
+    scale: 1.03;
+}
+
+.container-ed:hover {
+    scale: 1.03;
+}
+
+.container-skills:hover {
+    scale: 1.03;
+}
+
+.container-hobbies:hover {
+    scale: 1.03;
+}
+
+/* Media queries */
+@media screen and (max-width: 376px) {
+
+
+    .container-sk {
+        left: 0rem;
+    }
+
+    .container-exp {
+        top: 52rem;
+        left: 0rem;
+    }
+
+    .container-ed {
+        top: 92rem;
+        left: 0rem;
+    }
+
+    .container-skills {
+        top: 105rem;
+        left: 0rem;
+    }
+
+    .container-hobbies {
+        top: 130rem;
+        left: 0rem;
+    }
+
 }

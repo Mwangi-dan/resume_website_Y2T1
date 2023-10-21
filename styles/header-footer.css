@@ -63,7 +63,7 @@ footer .icon img:hover {
 
 
 /* Mobile-screen */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
     .menu {
         display: none;
     }
@@ -88,6 +88,7 @@ footer .icon img:hover {
         width: 100%;
         gap: 1rem;
     }
+
 }
 
 

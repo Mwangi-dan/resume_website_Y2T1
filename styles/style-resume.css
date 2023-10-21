@@ -227,30 +227,59 @@ h5.t {
 
 /* Media queries */
 @media screen and (max-width: 376px) {
-
-
     .container-sk {
         left: 0rem;
     }
 
     .container-exp {
-        top: 52rem;
+        top: 50rem;
         left: 0rem;
     }
 
     .container-ed {
-        top: 92rem;
+        top: 91rem;
         left: 0rem;
     }
 
     .container-skills {
-        top: 105rem;
+        top: 104rem;
         left: 0rem;
     }
 
     .container-hobbies {
-        top: 130rem;
+        top: 128rem;
         left: 0rem;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+    .container-sk {
+        left: rem;
+    }
+
+    .container-exp {
+        top: 50rem;
+        left: 0rem;
+    }
+
+    .container-ed {
+        top: 91rem;
+        left: 0rem;
+    }
+
+    .container-skills {
+        top: 104rem;
+        left: 0rem;
+    }
+
+    .container-hobbies {
+        top: 128rem;
+        left: 0rem;
+    }
+
+    .main-cont {
+        position: relative;
+        left: 5rem;
+    }
 }

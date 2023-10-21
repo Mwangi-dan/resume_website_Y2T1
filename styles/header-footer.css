@@ -13,7 +13,7 @@
     text-decoration: none;
     color: white;
     padding: 0.4rem;
-    transition: border ease-in 0.1s;
+    transition: border ease-in-out 0.05s;
 }
 
 .menu li a:hover {

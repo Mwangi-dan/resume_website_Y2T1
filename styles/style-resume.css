@@ -1,0 +1,208 @@
+.container-sk,
+.container-exp,
+.container-ed,
+.container-skills, 
+.container-hobbies {
+    color: white;
+    width: 25rem;
+    margin-left: 5rem;
+    margin: 0.5rem;
+}
+
+.tech-skills {
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.languages {
+    border: 1px solid white;
+    padding: 1rem;
+    margin-top: 0.8rem;
+    border-radius: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+    text-decoration: underline 1px solid white;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    margin: 1rem 0 1rem 1rem;
+}
+
+.box .square {
+    border: 1px solid white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.box .square p {
+    margin: 0 auto;
+}
+
+.box .text {
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.box .text h2 {
+    margin: 0 auto;
+}
+
+.box .gauge {
+    border: 2px solid white;
+    height: 0.3rem;
+    width: 8rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    left: 15rem;
+}
+
+.box .gauge .progress {
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    border-radius: 1rem;
+}
+
+.container-exp {
+    position: absolute;
+    top: 3rem;
+    left: 27rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.role h2,
+.role p {
+    margin: 0;
+} 
+
+.role p.company {
+    width: 10%;
+}
+
+.role {
+    margin: 1rem;
+}
+
+.container-ed {
+    position: absolute;
+    top: 43rem;
+    left: 27rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.box-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box-skills p {
+    margin: 0;
+}
+
+.lang-gauge {
+    padding: 1rem;
+}
+
+.lang-gauge .gauge {
+    border: 2px solid white;
+    height: 0.3rem;
+    width: 8rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    top: -2.2rem;
+    left: 10rem;
+}
+
+.gauge .progress {
+    background-color: white;
+    height: 100%;
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.container-skills {
+    position: absolute;
+    top: 3rem;
+    left: 55rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+h5.t {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.box-skills {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-skills p {
+    margin: 0.1rem;
+}
+
+.container-hobbies {
+    position: absolute;
+    top: 27rem;
+    left: 55rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.box-hob {
+    padding: 1rem;
+}
+
+.hob {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.hob .circle{
+    border: 1px solid white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.hob p {
+    margin: 0;
+    position: relative;
+    top: 0.5rem;
+    left: 2rem;
+}
+
+.circle .fill {
+    background-color: aliceblue;
+    width: 2rem;
+    height: 2rem;
+    max-height: 50%;
+    border-radius: 50%;
+}
